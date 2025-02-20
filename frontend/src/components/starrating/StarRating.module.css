@@ -1,0 +1,25 @@
+.star-rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .star {
+    margin-right: 4px; /* Adjust the spacing between stars */
+  }
+  
+  .star:last-child {
+    margin-right: 0; /* Remove margin for the last star */
+  }
+  
+  .full-star {
+    color: gold; /* Color for full stars */
+  }
+  
+  .half-star {
+    color: gold; /* Color for half stars */
+  }
+  
+  .empty-star {
+    color: grey; /* Color for empty stars */
+  }
+  

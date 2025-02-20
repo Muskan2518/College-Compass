@@ -1,0 +1,104 @@
+/* Header Styles */
+.header {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .logoImage {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .collegePredictor {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .collegePredictor:hover {
+    color: #f7b731; /* gold */
+    text-decoration: underline;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  .menu_container {
+    position: relative;
+  }
+  
+  .menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .menu_container:hover .menu {
+    display: block;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #333333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Bookmarks Section Styles */
+  .bookmarks {
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .bookmarks h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .credit {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #666666;
+  }
+  

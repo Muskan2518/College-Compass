@@ -1,0 +1,5 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "Node"    },
+        "include": ["src", "../frontend/src/axiosConfig.js"]
+}
